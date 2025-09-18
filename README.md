@@ -58,4 +58,4 @@ Key architectural decisions are documented in the Architecture Decision Records
 This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) for
 details.
 ## Author
-Your Name
+Eden Tripp
