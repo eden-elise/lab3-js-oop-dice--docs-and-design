@@ -20,7 +20,7 @@ as constructor parameters.
 - Constructor parameter lists can grow
 - Dependencies still need to be well considered
 ## Example
-` ``javascript
+```javascript
 // Dice roller with injected renderer dependency
 class DiceRoller {
 constructor(renderer) {
@@ -39,7 +39,7 @@ const visualRoller = new DiceRoller(asciiRenderer);
 // Same logic, different output
 textRoller.roll("2d6"); // Output: "You rolled 7 (3, 4)"
 visualRoller.roll("2d6"); // Output: ASCII art of dice faces
-` ``
+```
 ## Alternatives Considered
 1. DI Framework - Additional complexity and dependencies. Always avoid adopting
    complexity until we understand basics
@@ -64,7 +64,7 @@ We will embed documentation directly in code using:
 - ADRs for architectural decisions
 ## Implementation
 ### JSDoc with Mermaid
-` ``javascript
+```javascript
 /**
 * @fileoverview Die class for simulating dice rolls
 * @mermaid
@@ -77,9 +77,9 @@ We will embed documentation directly in code using:
 * +getValue(): number
 * }
   */
-  ` ``
+  ```
 ### File Structure
-` ``
+```
 src/
 ├── domain/
 │ ├── Die.js # Single die implementation
@@ -91,7 +91,7 @@ src/
 └── presentation/
 ├── renderers/ # Different display strategies
 └── cli/ # Command-line interface
-` ``
+```
 ## Consequences
 ### Positive
 - Documentation stays close to code
