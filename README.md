@@ -33,19 +33,27 @@ This project follows a step-by-step development approach:
 4. View Layer Step 1 - CLI
 5. View Layer Step 2 - TUI (optional)
 ## Repository Structure (Planned)
-` ``
+```
 lab3-js-oop-dice-docs-and-design/
 ├── docs/
 │ ├── adr/ # Architecture Decision Records
 │ └── architecture.md # System architecture overview
 ├── src/ # Source code (to be added)
+│ └── domain/
+│ ├── Die.js # Single die class
+│ ├── DiceSet.js # Collection of dice
+│ └── DiceNotation.js # Parser for notation
 ├── test/ # Test files (to be added)
+│ └── domain/
+│ ├── Die.test.js
+│ ├── DiceSet.test.js
+│ └── DiceNotation.test.js
 ├── .gitignore # Git ignore configuration
 ├── package.json # Node.js project configuration
 ├── README.md # This file
 ├── CHANGELOG.md # Version history
 └── LICENSE.md # MIT License
-` ``
+```
 ## Design Decisions
 Key architectural decisions are documented in the Architecture Decision Records
 (ADRs):
