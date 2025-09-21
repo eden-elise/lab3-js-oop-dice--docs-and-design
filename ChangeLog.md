@@ -26,7 +26,7 @@ and this project adheres to [Semantic Versioning]
 - Die class with configurable sides and private fields
 - DiceSet class demonstrating composition pattern
 - DiceNotation parser for standard dice notation (e.g., "3d6+2")
-- Comprehensive unit tests (48 tests total)
+- Comprehensive unit tests (48 test total)
 - Test scripts in package.json
   [Unreleased]: https://github.com/yourusername/lab3-js-oop-dice-docs-and-
   design/v0.2.0...HEAD
